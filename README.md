@@ -2,7 +2,7 @@
 
 #### Overview
 
-This GitHub repository, "controls," is designed to host deep learning models that function as experimental controls. The models included are pivotal for research experiments aimed at publication. They are meticulously crafted to ensure that each model can be trained from scratch. This criterion is critical to guarantee that the controls are executed on identical hardware for the same duration, providing a consistent baseline for comparison.
+This repository hosts deep learning models that function as experimental controls. The models included are pivotal for research experiments aimed at publication. The code is crafted to ensure that each model can be trained from scratch, critical for executing the controls on identical hardware as experimental approaches, providing a consistent baseline for comparison.
 
 #### Models
 
