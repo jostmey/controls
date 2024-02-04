@@ -72,23 +72,23 @@ class Model(torch.nn.Module):
 
         self.layer1 = torch.nn.Sequential(
             torch.nn.Linear(num_inputs, num_inputs),
-            torch.nn.ReLU(),
             torch.nn.Dropout(p=p),
-            torch.nn.BatchNorm1d(num_inputs)
+            torch.nn.BatchNorm1d(num_inputs),
+            torch.nn.ReLU()
         )
 
         self.layer2 = torch.nn.Sequential(
             torch.nn.Linear(num_inputs, num_inputs),
-            torch.nn.ReLU(),
             torch.nn.Dropout(p=p),
-            torch.nn.BatchNorm1d(num_inputs)
+            torch.nn.BatchNorm1d(num_inputs),
+            torch.nn.ReLU()
         )
 
         self.layer3 = torch.nn.Sequential(
             torch.nn.Linear(num_inputs, num_inputs),
-            torch.nn.ReLU(),
             torch.nn.Dropout(p=p),
-            torch.nn.BatchNorm1d(num_inputs)
+            torch.nn.BatchNorm1d(num_inputs),
+            torch.nn.ReLU()
         )
 
         self.layer4 = torch.nn.Sequential(
