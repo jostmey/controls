@@ -1,4 +1,4 @@
-## Controls: Deep Learning Models for Experimental Controls
+## Deep Learning Models for Experimental Controls
 
 #### Overview
 
